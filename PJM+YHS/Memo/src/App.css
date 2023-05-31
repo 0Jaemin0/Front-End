@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+/* editor */
+
+.MemoEdit {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.MemoEdit input,
+textarea {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.MemoEdit input {
+  padding: 10px;
+}
+.MemoEdit textarea {
+  padding: 10px;
+  height: 150px;
+}
+
+.MemoEdit select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.MemoEdit button {
+  width: 500px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Btn button {
+  width: 100px;
+  height: 150px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.Btn img {
+  width: 60px;
+  height: auto;
+}
+
+.btn1:focus {
+  background-color: green;
+}
+
+.btn2:focus {
+  background-color: greenyellow;
+}
+
+.btn3:focus {
+  background-color: yellow;
+}
+
+.btn4:focus {
+  background-color: orange;
+}
+
+.btn5:focus {
+  background-color: red;
+}
